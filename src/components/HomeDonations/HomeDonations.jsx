@@ -12,7 +12,7 @@ const HomeDonations = () => {
     }, [])
 
     return (
-        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 my-8 md:my-12 lg:my-20 gap-4 max-w-screen-xl mx-auto p-2  ">
+        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 my-4 md:my-12 lg:my-26 gap-4 max-w-screen-xl mx-auto p-2  ">
             {
                 
                 homeDonations.map((donation,idx)=><HomeDonation key={idx} donation={donation}></HomeDonation>)
