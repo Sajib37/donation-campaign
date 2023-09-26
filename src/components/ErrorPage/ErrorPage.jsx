@@ -12,7 +12,7 @@ const ErrorPage = () => {
                     <h2>{error.statusText}</h2>
                 </div>
                 <p>{ error.data}</p>
-                <Link><button className="btn btn-outline btn-primary">Primary</button></Link>
+                <Link><button className="btn btn-outline btn-primary">Go back Home</button></Link>
             </div>
         </div>
     );
