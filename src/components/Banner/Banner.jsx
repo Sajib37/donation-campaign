@@ -16,10 +16,10 @@ const Banner = () => {
         backgroundColor: 'rgba(255, 255, 255, 0.8)'
     }
     return (
-        <div>
-            <h1>
-                banner here
-            </h1>
+        <div className='w-full h-[40vh] md:h-[50vh] lg:h-[65vh]'>
+            <div >
+
+            </div>
             <div className="w-full h-[50vh] md:h-[60vh] lg:h-[75vh]   absolute top-0 left-0 z-10 ">
                 <div className="w-full h-full  flex flex-col gap-2 items-center justify-center border-teal-400 absolute bottom-0 left-0 bg-orange-400" style={bg_style}>
                     <h1 className='text-3xl text-center md:text-4xl lg:text-5xl font-bold z-20'>I Grow By Helping People In Need</h1>
